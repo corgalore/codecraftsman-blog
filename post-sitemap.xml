@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//www.codecraftsman.us/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://www.codecraftsman.us/</loc>
+		<lastmod>2020-09-29T03:11:36+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://www.codecraftsman.us/validate-an-umbraco-forms-submission-server-side/</loc>
+		<lastmod>2020-09-29T02:12:19+00:00</lastmod>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/08/umbraco-project-composer-class.gif</image:loc>
+			<image:caption><![CDATA[Umbraco project Composer class example]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.codecraftsman.us/optimize-your-website-font-icons-for-max-speed-by-subsetting/</loc>
+		<lastmod>2020-09-29T02:13:53+00:00</lastmod>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/08/font-awesome-pro-icon-subset.gif</image:loc>
+			<image:title><![CDATA[Subset icons for improved render times]]></image:title>
+			<image:caption><![CDATA[Subset icons for improved render times]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/08/fa-pro-beta-features-setting.gif</image:loc>
+			<image:caption><![CDATA[FA Pro Beta Features Setting]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/08/fa-pro-subsetter-download.gif</image:loc>
+			<image:caption><![CDATA[FA Pro Subsetter Download]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/08/fa-pro-subsetter-ui.gif</image:loc>
+			<image:caption><![CDATA[FA Pro Subsetter]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/08/fa-pro-subset-zip-contents.gif</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/08/fa-pro-subset-font-results.gif</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.codecraftsman.us/my-umbraco-v8-project-setup-in-visual-studio/</loc>
+		<lastmod>2020-09-29T02:14:50+00:00</lastmod>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/08/vs-umbraco-setup.gif</image:loc>
+			<image:title><![CDATA[vs-umbraco-setup]]></image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/09/vs-umbraco-solution-setup.gif</image:loc>
+			<image:caption><![CDATA[My Umbraco v8 setup in Visual Studio]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/09/umbraco-nuget-package.gif</image:loc>
+			<image:caption><![CDATA[Umbraco CMS nuget package]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/08/umbraco-nuget-installed.gif</image:loc>
+			<image:caption><![CDATA[Umbraco Nuget Installed]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/09/umbraco-backoffice-models-builder.gif</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.codecraftsman.us/insert-emoji-into-wordpress-gutenberg-block-without-a-plugin/</loc>
+		<lastmod>2020-09-29T02:16:25+00:00</lastmod>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/07/emoji-in-wordpress.jpg</image:loc>
+			<image:title><![CDATA[emoji-in-wordpress]]></image:title>
+			<image:caption><![CDATA[Emojis on in Wordpress]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/07/win-10-emoji-sample.gif</image:loc>
+			<image:caption><![CDATA[Win 10 Emoji sample]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.codecraftsman.us/recover-a-private-key-from-a-godaddy-ssl-certificate/</loc>
+		<lastmod>2020-09-29T02:16:55+00:00</lastmod>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/07/extract-private-key-from-godaddy-cert.jpg</image:loc>
+			<image:title><![CDATA[extract-private-key-from-godaddy-cert]]></image:title>
+			<image:caption><![CDATA[Private key character string]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/07/ssl-connection-error.gif</image:loc>
+			<image:caption><![CDATA[SSL Certificate Expired Error]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/07/stackpath-cdn-ssl-form.gif</image:loc>
+			<image:caption><![CDATA[StackPath CDN SSL Form]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/07/iis-server-certificate-form-2.gif</image:loc>
+			<image:caption><![CDATA[IIS Server Certificates form]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/07/csr-sample-request.gif</image:loc>
+			<image:caption><![CDATA[Sample Certificate Signing Request]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/07/godaddy-ssl-rekey.gif</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/08/iis-server-certificate-complete-form.gif</image:loc>
+			<image:caption><![CDATA[IIS Certificate Request Complete]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/07/private-key-sample.gif</image:loc>
+			<image:caption><![CDATA[Sample private key file contents]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.codecraftsman.us/create-a-custom-html-field-type-in-umbracoforms/</loc>
+		<lastmod>2020-09-29T03:11:36+00:00</lastmod>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/09/umbraco-forms-custom-field-type-walkthrough.gif</image:loc>
+			<image:title><![CDATA[umbraco-forms-custom-field-type-walkthrough]]></image:title>
+			<image:caption><![CDATA[UmbracoForms custom field type]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/09/vs-solution-customhtmlfield-class.gif</image:loc>
+			<image:caption><![CDATA[View of custom class in Visual Studio solution explorer]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/09/umbraco-forms-select-field-type-custom.gif</image:loc>
+			<image:caption><![CDATA[Umbraco Forms Custom field type selection.]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/09/umbraco-forms-custom-html-field-markup-entry.gif</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/09/vs-solution-customhtmlfield-front-templates.gif</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/09/umbraco-forms-custom-html-field-rendering.gif</image:loc>
+		</image:image>
+	</url>
+</urlset>
+<!-- XML Sitemap generated by Yoast SEO -->
