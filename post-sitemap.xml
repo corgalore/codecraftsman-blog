@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://www.codecraftsman.us/</loc>
-		<lastmod>2020-09-29T03:11:36+00:00</lastmod>
+		<lastmod>2020-10-30T02:35:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://www.codecraftsman.us/validate-an-umbraco-forms-submission-server-side/</loc>
@@ -135,6 +135,45 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/09/umbraco-forms-custom-html-field-rendering.gif</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.codecraftsman.us/integrate-the-elementor-global-theme-system-into-reusable-templates/</loc>
+		<lastmod>2020-10-30T02:35:35+00:00</lastmod>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-theme-system-reusable-templates.gif</image:loc>
+			<image:title><![CDATA[elementor-theme-system-reusable-templates]]></image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-sidebar-theme-settings.gif</image:loc>
+			<image:caption><![CDATA[Elementor Site Settings]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-sidebar-global-colors.gif</image:loc>
+			<image:caption><![CDATA[Elementor Global Colors]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-sidebar-global-fonts.gif</image:loc>
+			<image:caption><![CDATA[Elementor Global Fonts]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-sidebar-global-buttons.gif</image:loc>
+			<image:caption><![CDATA[Elementor Global Buttons]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-button-save-global.gif</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-global-button-unlink.gif</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-sidebar-global-elements.gif</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-style-guide-page.gif</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-global-template-insert.gif</image:loc>
 		</image:image>
 	</url>
 </urlset>
