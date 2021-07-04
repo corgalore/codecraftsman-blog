@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://www.codecraftsman.us/</loc>
-		<lastmod>2020-10-30T02:35:35+00:00</lastmod>
+		<lastmod>2021-07-04T04:05:36+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://www.codecraftsman.us/validate-an-umbraco-forms-submission-server-side/</loc>
@@ -174,6 +174,15 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-global-template-insert.gif</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.codecraftsman.us/use-laravel-nova-core-components-in-your-custom-component/</loc>
+		<lastmod>2021-07-04T04:05:36+00:00</lastmod>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2021/06/laravel-nova-vue-component-reuse.gif</image:loc>
+			<image:title><![CDATA[laravel nova vue component reuse]]></image:title>
+			<image:caption><![CDATA[laravel nova vue component reuse]]></image:caption>
 		</image:image>
 	</url>
 </urlset>
