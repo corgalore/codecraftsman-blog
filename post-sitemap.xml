@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://www.codecraftsman.us/</loc>
-		<lastmod>2022-04-29T03:52:24+00:00</lastmod>
+		<lastmod>2022-05-04T02:53:22+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://www.codecraftsman.us/validate-an-umbraco-forms-submission-server-side/</loc>
@@ -138,45 +138,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://www.codecraftsman.us/integrate-the-elementor-global-theme-system-into-reusable-templates/</loc>
-		<lastmod>2020-10-30T02:35:35+00:00</lastmod>
-		<image:image>
-			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-theme-system-reusable-templates.gif</image:loc>
-			<image:title><![CDATA[elementor-theme-system-reusable-templates]]></image:title>
-		</image:image>
-		<image:image>
-			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-sidebar-theme-settings.gif</image:loc>
-			<image:caption><![CDATA[Elementor Site Settings]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-sidebar-global-colors.gif</image:loc>
-			<image:caption><![CDATA[Elementor Global Colors]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-sidebar-global-fonts.gif</image:loc>
-			<image:caption><![CDATA[Elementor Global Fonts]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-sidebar-global-buttons.gif</image:loc>
-			<image:caption><![CDATA[Elementor Global Buttons]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-button-save-global.gif</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-global-button-unlink.gif</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-sidebar-global-elements.gif</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-style-guide-page.gif</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-global-template-insert.gif</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://www.codecraftsman.us/use-laravel-nova-core-components-in-your-custom-component/</loc>
 		<lastmod>2021-07-04T04:05:36+00:00</lastmod>
 		<image:image>
@@ -222,6 +183,57 @@
 			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2022/04/how-to-code-a-throttle-or-debounce-function-in-lua.gif</image:loc>
 			<image:title><![CDATA[how-to-code-a-throttle-or-debounce-function-in-lua]]></image:title>
 			<image:caption><![CDATA[how to code a throttle or debounce function in lua]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.codecraftsman.us/integrate-the-elementor-global-theme-system-into-reusable-templates/</loc>
+		<lastmod>2022-05-04T02:23:04+00:00</lastmod>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-theme-system-reusable-templates.gif</image:loc>
+			<image:title><![CDATA[elementor-theme-system-reusable-templates]]></image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-sidebar-theme-settings.gif</image:loc>
+			<image:caption><![CDATA[Elementor Site Settings]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-sidebar-global-colors.gif</image:loc>
+			<image:caption><![CDATA[Elementor Global Colors]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-sidebar-global-fonts.gif</image:loc>
+			<image:caption><![CDATA[Elementor Global Fonts]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-sidebar-global-buttons.gif</image:loc>
+			<image:caption><![CDATA[Elementor Global Buttons]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-button-save-global.gif</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-global-button-unlink.gif</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-sidebar-global-elements.gif</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-style-guide-page.gif</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-global-template-insert.gif</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.codecraftsman.us/extend-bc-for-wp-show-customers-their-available-store-credit/</loc>
+		<lastmod>2022-05-04T02:53:22+00:00</lastmod>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2022/05/show-available-bc-store-credit.gif</image:loc>
+			<image:title><![CDATA[show-available-bc-store-credit]]></image:title>
+			<image:caption><![CDATA[Extending Bigcommerce for Wordpress]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2022/05/bigcommerce-store-credit-example.png</image:loc>
 		</image:image>
 	</url>
 </urlset>
