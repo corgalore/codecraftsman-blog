@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://www.codecraftsman.us/</loc>
-		<lastmod>2022-05-04T02:53:22+00:00</lastmod>
+		<lastmod>2022-06-08T03:16:01+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://www.codecraftsman.us/validate-an-umbraco-forms-submission-server-side/</loc>
@@ -166,17 +166,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://www.codecraftsman.us/how-to-share-vue-components-between-multiple-projects/</loc>
-		<lastmod>2022-02-25T05:04:32+00:00</lastmod>
-		<image:image>
-			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2022/02/share-vue-components-between-projects.gif</image:loc>
-			<image:title><![CDATA[share-vue-components-between-projects]]></image:title>
-		</image:image>
-		<image:image>
-			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2022/02/share-common-vue-components-01.gif</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://www.codecraftsman.us/how-to-code-a-throttle-or-debounce-function-in-lua/</loc>
 		<lastmod>2022-04-29T03:52:24+00:00</lastmod>
 		<image:image>
@@ -234,6 +223,25 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2022/05/bigcommerce-store-credit-example.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.codecraftsman.us/how-to-share-vue-components-between-multiple-projects/</loc>
+		<lastmod>2022-06-08T03:14:23+00:00</lastmod>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2022/02/share-vue-components-between-projects.gif</image:loc>
+			<image:title><![CDATA[share-vue-components-between-projects]]></image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2022/02/share-common-vue-components-01.gif</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.codecraftsman.us/add-bcc-address-to-all-woocommerce-emails/</loc>
+		<lastmod>2022-06-08T03:16:01+00:00</lastmod>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2022/06/add-bcc-address-to-all-woocommerce-emails.gif</image:loc>
+			<image:title><![CDATA[add-bcc-address-to-all-woocommerce-emails]]></image:title>
 		</image:image>
 	</url>
 </urlset>
