@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://www.codecraftsman.us/</loc>
-		<lastmod>2022-06-08T03:16:01+00:00</lastmod>
+		<lastmod>2022-08-15T03:40:54+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://www.codecraftsman.us/validate-an-umbraco-forms-submission-server-side/</loc>
@@ -242,6 +242,27 @@
 		<image:image>
 			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2022/06/add-bcc-address-to-all-woocommerce-emails.gif</image:loc>
 			<image:title><![CDATA[add-bcc-address-to-all-woocommerce-emails]]></image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.codecraftsman.us/replace-google-analytics-with-privacy-focused-website-statistics/</loc>
+		<lastmod>2022-08-15T03:40:54+00:00</lastmod>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2022/07/replace-google-analytics-with-privacy-focused-website-statistics.gif</image:loc>
+			<image:title><![CDATA[replace-google-analytics-with-privacy-focused-website-statistics]]></image:title>
+			<image:caption><![CDATA[privacy focused website statistics]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2022/08/replace-google-analytics-with-privacy-focused-website-statistics-01.gif</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2022/08/share-privacy-focused-website-statistics-02.gif</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2022/08/event-tracking-in-privacy-focused-website-statistics-02.gif</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2022/08/reporting-graph-privacy-focused-website-statistics-02.gif</image:loc>
 		</image:image>
 	</url>
 </urlset>
