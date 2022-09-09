@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://www.codecraftsman.us/</loc>
-		<lastmod>2022-08-15T03:40:54+00:00</lastmod>
+		<lastmod>2022-09-09T03:41:10+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://www.codecraftsman.us/validate-an-umbraco-forms-submission-server-side/</loc>
@@ -263,6 +263,15 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2022/08/reporting-graph-privacy-focused-website-statistics-02.gif</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.codecraftsman.us/generate-a-pfx-file-from-a-godaddy-ssl-certificate/</loc>
+		<lastmod>2022-09-09T03:41:10+00:00</lastmod>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2022/09/generate-a-pfx-file-from-a-godaddy-ssl-certificate.gif</image:loc>
+			<image:title><![CDATA[generate-a-pfx-file-from-a-godaddy-ssl-certificate]]></image:title>
+			<image:caption><![CDATA[generate pfx from godaddy cert]]></image:caption>
 		</image:image>
 	</url>
 </urlset>
