@@ -363,7 +363,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 
 		extractMockText( element ) {
 
-			return element.innerHTML.replaceAll('<p>', '').replaceAll('', "\n\n").replaceAll('<br>', "\n");
+			return element.innerHTML.replaceAll("<p>", "").replaceAll("</p>", "\n\n").replaceAll("<br>", "\n");
         }
 
 		copyToClipboard( key, value, trigger, callback ) {
