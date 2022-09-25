@@ -2,13 +2,13 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://www.codecraftsman.us/</loc>
-		<lastmod>2022-09-21T04:09:16+00:00</lastmod>
+		<lastmod>2022-09-25T04:14:44+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://www.codecraftsman.us/validate-an-umbraco-forms-submission-server-side/</loc>
 		<lastmod>2020-09-29T02:12:19+00:00</lastmod>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/08/umbraco-project-composer-class.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/08/umbraco-project-composer-class.gif</image:loc>
 			<image:caption><![CDATA[Umbraco project Composer class example]]></image:caption>
 		</image:image>
 	</url>
@@ -16,62 +16,62 @@
 		<loc>https://www.codecraftsman.us/optimize-your-website-font-icons-for-max-speed-by-subsetting/</loc>
 		<lastmod>2020-09-29T02:13:53+00:00</lastmod>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/08/font-awesome-pro-icon-subset.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/08/font-awesome-pro-icon-subset.gif</image:loc>
 			<image:title><![CDATA[Subset icons for improved render times]]></image:title>
 			<image:caption><![CDATA[Subset icons for improved render times]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/08/fa-pro-beta-features-setting.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/08/fa-pro-beta-features-setting.gif</image:loc>
 			<image:caption><![CDATA[FA Pro Beta Features Setting]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/08/fa-pro-subsetter-download.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/08/fa-pro-subsetter-download.gif</image:loc>
 			<image:caption><![CDATA[FA Pro Subsetter Download]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/08/fa-pro-subsetter-ui.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/08/fa-pro-subsetter-ui.gif</image:loc>
 			<image:caption><![CDATA[FA Pro Subsetter]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/08/fa-pro-subset-zip-contents.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/08/fa-pro-subset-zip-contents.gif</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/08/fa-pro-subset-font-results.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/08/fa-pro-subset-font-results.gif</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://www.codecraftsman.us/my-umbraco-v8-project-setup-in-visual-studio/</loc>
 		<lastmod>2020-09-29T02:14:50+00:00</lastmod>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/08/vs-umbraco-setup.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/08/vs-umbraco-setup.gif</image:loc>
 			<image:title><![CDATA[vs-umbraco-setup]]></image:title>
 		</image:image>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/09/vs-umbraco-solution-setup.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/09/vs-umbraco-solution-setup.gif</image:loc>
 			<image:caption><![CDATA[My Umbraco v8 setup in Visual Studio]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/09/umbraco-nuget-package.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/09/umbraco-nuget-package.gif</image:loc>
 			<image:caption><![CDATA[Umbraco CMS nuget package]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/08/umbraco-nuget-installed.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/08/umbraco-nuget-installed.gif</image:loc>
 			<image:caption><![CDATA[Umbraco Nuget Installed]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/09/umbraco-backoffice-models-builder.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/09/umbraco-backoffice-models-builder.gif</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://www.codecraftsman.us/insert-emoji-into-wordpress-gutenberg-block-without-a-plugin/</loc>
 		<lastmod>2020-09-29T02:16:25+00:00</lastmod>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/07/emoji-in-wordpress.jpg</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/07/emoji-in-wordpress.jpg</image:loc>
 			<image:title><![CDATA[emoji-in-wordpress]]></image:title>
 			<image:caption><![CDATA[Emojis on in Wordpress]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/07/win-10-emoji-sample.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/07/win-10-emoji-sample.gif</image:loc>
 			<image:caption><![CDATA[Win 10 Emoji sample]]></image:caption>
 		</image:image>
 	</url>
@@ -79,35 +79,35 @@
 		<loc>https://www.codecraftsman.us/recover-a-private-key-from-a-godaddy-ssl-certificate/</loc>
 		<lastmod>2020-09-29T02:16:55+00:00</lastmod>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/07/extract-private-key-from-godaddy-cert.jpg</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/07/extract-private-key-from-godaddy-cert.jpg</image:loc>
 			<image:title><![CDATA[extract-private-key-from-godaddy-cert]]></image:title>
 			<image:caption><![CDATA[Private key character string]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/07/ssl-connection-error.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/07/ssl-connection-error.gif</image:loc>
 			<image:caption><![CDATA[SSL Certificate Expired Error]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/07/stackpath-cdn-ssl-form.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/07/stackpath-cdn-ssl-form.gif</image:loc>
 			<image:caption><![CDATA[StackPath CDN SSL Form]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/07/iis-server-certificate-form-2.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/07/iis-server-certificate-form-2.gif</image:loc>
 			<image:caption><![CDATA[IIS Server Certificates form]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/07/csr-sample-request.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/07/csr-sample-request.gif</image:loc>
 			<image:caption><![CDATA[Sample Certificate Signing Request]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/07/godaddy-ssl-rekey.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/07/godaddy-ssl-rekey.gif</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/08/iis-server-certificate-complete-form.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/08/iis-server-certificate-complete-form.gif</image:loc>
 			<image:caption><![CDATA[IIS Certificate Request Complete]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/07/private-key-sample.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/07/private-key-sample.gif</image:loc>
 			<image:caption><![CDATA[Sample private key file contents]]></image:caption>
 		</image:image>
 	</url>
@@ -115,33 +115,33 @@
 		<loc>https://www.codecraftsman.us/create-a-custom-html-field-type-in-umbracoforms/</loc>
 		<lastmod>2020-09-29T03:11:36+00:00</lastmod>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/09/umbraco-forms-custom-field-type-walkthrough.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/09/umbraco-forms-custom-field-type-walkthrough.gif</image:loc>
 			<image:title><![CDATA[umbraco-forms-custom-field-type-walkthrough]]></image:title>
 			<image:caption><![CDATA[UmbracoForms custom field type]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/09/vs-solution-customhtmlfield-class.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/09/vs-solution-customhtmlfield-class.gif</image:loc>
 			<image:caption><![CDATA[View of custom class in Visual Studio solution explorer]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/09/umbraco-forms-select-field-type-custom.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/09/umbraco-forms-select-field-type-custom.gif</image:loc>
 			<image:caption><![CDATA[Umbraco Forms Custom field type selection.]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/09/umbraco-forms-custom-html-field-markup-entry.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/09/umbraco-forms-custom-html-field-markup-entry.gif</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/09/vs-solution-customhtmlfield-front-templates.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/09/vs-solution-customhtmlfield-front-templates.gif</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/09/umbraco-forms-custom-html-field-rendering.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/09/umbraco-forms-custom-html-field-rendering.gif</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://www.codecraftsman.us/use-laravel-nova-core-components-in-your-custom-component/</loc>
 		<lastmod>2021-07-04T04:05:36+00:00</lastmod>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2021/06/laravel-nova-vue-component-reuse.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2021/06/laravel-nova-vue-component-reuse.gif</image:loc>
 			<image:title><![CDATA[laravel nova vue component reuse]]></image:title>
 			<image:caption><![CDATA[laravel nova vue component reuse]]></image:caption>
 		</image:image>
@@ -150,18 +150,18 @@
 		<loc>https://www.codecraftsman.us/create-an-elementor-widget-using-vuejs-tailwind/</loc>
 		<lastmod>2022-01-15T04:03:41+00:00</lastmod>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/01/elementor-widget-using-vue-tailwind.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2022/01/elementor-widget-using-vue-tailwind.gif</image:loc>
 			<image:title><![CDATA[elementor-widget-using-vue-tailwind]]></image:title>
 		</image:image>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/01/elementor-vue-tailwind-widget-01.jpg</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2022/01/elementor-vue-tailwind-widget-01.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://www.codecraftsman.us/how-to-code-a-throttle-or-debounce-function-in-lua/</loc>
 		<lastmod>2022-04-29T03:52:24+00:00</lastmod>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/04/how-to-code-a-throttle-or-debounce-function-in-lua.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2022/04/how-to-code-a-throttle-or-debounce-function-in-lua.gif</image:loc>
 			<image:title><![CDATA[how-to-code-a-throttle-or-debounce-function-in-lua]]></image:title>
 			<image:caption><![CDATA[how to code a throttle or debounce function in lua]]></image:caption>
 		</image:image>
@@ -170,30 +170,30 @@
 		<loc>https://www.codecraftsman.us/extend-bc-for-wp-show-customers-their-available-store-credit/</loc>
 		<lastmod>2022-05-04T02:53:22+00:00</lastmod>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/05/show-available-bc-store-credit.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2022/05/show-available-bc-store-credit.gif</image:loc>
 			<image:title><![CDATA[show-available-bc-store-credit]]></image:title>
 			<image:caption><![CDATA[Extending Bigcommerce for Wordpress]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/05/bigcommerce-store-credit-example.png</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2022/05/bigcommerce-store-credit-example.png</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://www.codecraftsman.us/how-to-share-vue-components-between-multiple-projects/</loc>
 		<lastmod>2022-06-08T03:14:23+00:00</lastmod>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/02/share-vue-components-between-projects.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2022/02/share-vue-components-between-projects.gif</image:loc>
 			<image:title><![CDATA[share-vue-components-between-projects]]></image:title>
 		</image:image>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/02/share-common-vue-components-01.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2022/02/share-common-vue-components-01.gif</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://www.codecraftsman.us/add-bcc-address-to-all-woocommerce-emails/</loc>
 		<lastmod>2022-06-08T03:16:01+00:00</lastmod>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/06/add-bcc-address-to-all-woocommerce-emails.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2022/06/add-bcc-address-to-all-woocommerce-emails.gif</image:loc>
 			<image:title><![CDATA[add-bcc-address-to-all-woocommerce-emails]]></image:title>
 		</image:image>
 	</url>
@@ -201,28 +201,28 @@
 		<loc>https://www.codecraftsman.us/replace-google-analytics-with-privacy-focused-website-statistics/</loc>
 		<lastmod>2022-08-15T03:40:54+00:00</lastmod>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/07/replace-google-analytics-with-privacy-focused-website-statistics.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2022/07/replace-google-analytics-with-privacy-focused-website-statistics.gif</image:loc>
 			<image:title><![CDATA[replace-google-analytics-with-privacy-focused-website-statistics]]></image:title>
 			<image:caption><![CDATA[privacy focused website statistics]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/08/replace-google-analytics-with-privacy-focused-website-statistics-01.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2022/08/replace-google-analytics-with-privacy-focused-website-statistics-01.gif</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/08/share-privacy-focused-website-statistics-02.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2022/08/share-privacy-focused-website-statistics-02.gif</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/08/event-tracking-in-privacy-focused-website-statistics-02.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2022/08/event-tracking-in-privacy-focused-website-statistics-02.gif</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/08/reporting-graph-privacy-focused-website-statistics-02.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2022/08/reporting-graph-privacy-focused-website-statistics-02.gif</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://www.codecraftsman.us/generate-a-pfx-file-from-a-godaddy-ssl-certificate/</loc>
 		<lastmod>2022-09-09T03:41:10+00:00</lastmod>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/09/generate-a-pfx-file-from-a-godaddy-ssl-certificate.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2022/09/generate-a-pfx-file-from-a-godaddy-ssl-certificate.gif</image:loc>
 			<image:title><![CDATA[generate-a-pfx-file-from-a-godaddy-ssl-certificate]]></image:title>
 			<image:caption><![CDATA[generate pfx from godaddy cert]]></image:caption>
 		</image:image>
@@ -231,7 +231,7 @@
 		<loc>https://www.codecraftsman.us/lorem-ipsum-for-photoshop-designers/</loc>
 		<lastmod>2022-09-21T04:07:42+00:00</lastmod>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/09/lorem-ipsum-for-photoshop-designers.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2022/09/lorem-ipsum-for-photoshop-designers.gif</image:loc>
 			<image:title><![CDATA[lorem-ipsum-for-photoshop-designers]]></image:title>
 			<image:caption><![CDATA[Lorem ipsum for Photoshop and Figma designers]]></image:caption>
 		</image:image>
@@ -240,47 +240,74 @@
 		<loc>https://www.codecraftsman.us/integrate-the-elementor-global-theme-system-into-reusable-templates/</loc>
 		<lastmod>2022-09-21T04:09:16+00:00</lastmod>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-theme-system-reusable-templates.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-theme-system-reusable-templates.gif</image:loc>
 			<image:title><![CDATA[elementor-theme-system-reusable-templates]]></image:title>
 		</image:image>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-sidebar-theme-settings.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-sidebar-theme-settings.gif</image:loc>
 			<image:caption><![CDATA[Elementor Site Settings]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-sidebar-global-colors.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-sidebar-global-colors.gif</image:loc>
 			<image:caption><![CDATA[Elementor Global Colors]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-sidebar-global-fonts.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-sidebar-global-fonts.gif</image:loc>
 			<image:caption><![CDATA[Elementor Global Fonts]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-sidebar-global-buttons.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-sidebar-global-buttons.gif</image:loc>
 			<image:caption><![CDATA[Elementor Global Buttons]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-button-save-global.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-button-save-global.gif</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-global-button-unlink.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-global-button-unlink.gif</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-sidebar-global-elements.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-sidebar-global-elements.gif</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-style-guide-page.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-style-guide-page.gif</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-global-template-insert.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2020/10/elementor-global-template-insert.gif</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://www.codecraftsman.us/create-a-hexagonal-button-in-css/</loc>
 		<lastmod>2022-09-21T04:09:16+00:00</lastmod>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2021/10/hexagonal-button-with-htmlcss.gif</image:loc>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2021/10/hexagonal-button-with-htmlcss.gif</image:loc>
 			<image:title><![CDATA[hexagonal-button-with-html+css]]></image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.codecraftsman.us/how-i-built-my-hyper-fast-blog-for-free/</loc>
+		<lastmod>2022-09-25T04:14:44+00:00</lastmod>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2022/09/how-i-built-my-hyper-fast-blog-for-free.gif</image:loc>
+			<image:title><![CDATA[how-i-built-my-hyper-fast-blog-for-free]]></image:title>
+			<image:caption><![CDATA[How I built my hyper-fast blog for free]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2022/09/wordpress-logotype-standard.gif</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2022/09/hyper-fast-blog-wamp-logo.gif</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2022/09/github-logo-octo.gif</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2022/09/github-pages-setup.gif</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2022/09/cloudflare-dns-setup.gif</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.codecraftsman.us/wp-content/uploads/2022/09/github-pages-https-notice.gif</image:loc>
 		</image:image>
 	</url>
 </urlset>
