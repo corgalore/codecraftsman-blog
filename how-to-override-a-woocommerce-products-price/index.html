@@ -9,16 +9,17 @@
 	
 
 	
-	<title>Create an Elementor widget using VueJS + Tailwind - Code Craftsman</title>
+	<title>How to override a WooCommerce product's price - Code Craftsman</title>
+	<meta name="description" content="Taking full control of the price rendered by WooCommerce can be a tricky task, especially considering variation products and all the different locations it can be displayed. I'll show you the combination of Wordpress pricing override hooks that worked for me.">
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="article">
-	<meta property="og:title" content="Create an Elementor widget using VueJS + Tailwind - Code Craftsman">
-	<meta property="og:description" content="Everyone wants a faster performing website today. Reducing server requests by keeping your interactions on the client-side is one of the best way to gain a perception of speed and improve UX.">
-	<meta property="og:url" content="https://www.codecraftsman.us/create-an-elementor-widget-using-vuejs-tailwind/">
+	<meta property="og:title" content="How to override a WooCommerce product's price - Code Craftsman">
+	<meta property="og:description" content="Taking full control of the price rendered by WooCommerce can be a tricky task, especially considering variation products and all the different locations it can be displayed. I'll show you the combination of Wordpress pricing override hooks that worked for me.">
+	<meta property="og:url" content="https://www.codecraftsman.us/how-to-override-a-woocommerce-products-price/">
 	<meta property="og:site_name" content="Code Craftsman">
-	<meta property="article:published_time" content="2022-01-14T05:55:07+00:00">
-	<meta property="article:modified_time" content="2022-10-04T03:18:30+00:00">
-	<meta property="og:image" content="https://www.codecraftsman.us/wp-content/uploads/2022/01/elementor-widget-using-vue-tailwind.gif">
+	<meta property="article:published_time" content="2022-10-04T02:55:28+00:00">
+	<meta property="article:modified_time" content="2022-10-04T03:24:14+00:00">
+	<meta property="og:image" content="https://www.codecraftsman.us/wp-content/uploads/2022/10/how-to-override-a-woocommerce-products-price.gif">
 	<meta property="og:image:width" content="600">
 	<meta property="og:image:height" content="450">
 	<meta property="og:image:type" content="image/gif">
@@ -26,8 +27,8 @@
 	<meta name="twitter:label1" content="Written by">
 	<meta name="twitter:data1" content="Crafter">
 	<meta name="twitter:label2" content="Est. reading time">
-	<meta name="twitter:data2" content="6 minutes">
-	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.codecraftsman.us/#website","url":"https://www.codecraftsman.us/","name":"Code Craftsman","description":"Tales from a Dev Dad","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.codecraftsman.us/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://www.codecraftsman.us/create-an-elementor-widget-using-vuejs-tailwind/#primaryimage","inLanguage":"en-US","url":"https://www.codecraftsman.us/wp-content/uploads/2022/01/elementor-widget-using-vue-tailwind.gif","contentUrl":"https://www.codecraftsman.us/wp-content/uploads/2022/01/elementor-widget-using-vue-tailwind.gif","width":600,"height":450},{"@type":"WebPage","@id":"https://www.codecraftsman.us/create-an-elementor-widget-using-vuejs-tailwind/#webpage","url":"https://www.codecraftsman.us/create-an-elementor-widget-using-vuejs-tailwind/","name":"Create an Elementor widget using VueJS + Tailwind - Code Craftsman","isPartOf":{"@id":"https://www.codecraftsman.us/#website"},"primaryImageOfPage":{"@id":"https://www.codecraftsman.us/create-an-elementor-widget-using-vuejs-tailwind/#primaryimage"},"datePublished":"2022-01-14T05:55:07+00:00","dateModified":"2022-10-04T03:18:30+00:00","author":{"@id":"https://www.codecraftsman.us/#/schema/person/1e2117105620d79e80fbd3f77af21c9c"},"breadcrumb":{"@id":"https://www.codecraftsman.us/create-an-elementor-widget-using-vuejs-tailwind/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.codecraftsman.us/create-an-elementor-widget-using-vuejs-tailwind/"]}]},{"@type":"BreadcrumbList","@id":"https://www.codecraftsman.us/create-an-elementor-widget-using-vuejs-tailwind/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.codecraftsman.us/"},{"@type":"ListItem","position":2,"name":"Create an Elementor widget using VueJS + Tailwind"}]},{"@type":"Person","@id":"https://www.codecraftsman.us/#/schema/person/1e2117105620d79e80fbd3f77af21c9c","name":"Crafter","image":{"@type":"ImageObject","@id":"https://www.codecraftsman.us/#personlogo","inLanguage":"en-US","url":"https://secure.gravatar.com/avatar/44da38556e2e9cddb35a3ba8d696c641?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/44da38556e2e9cddb35a3ba8d696c641?s=96&d=mm&r=g","caption":"Crafter"},"sameAs":["https://www.codecraftsman.us"],"url":"https://www.codecraftsman.us/author/developer/"}]}</script>
+	<meta name="twitter:data2" content="3 minutes">
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.codecraftsman.us/#website","url":"https://www.codecraftsman.us/","name":"Code Craftsman","description":"Tales from a Dev Dad","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.codecraftsman.us/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://www.codecraftsman.us/how-to-override-a-woocommerce-products-price/#primaryimage","inLanguage":"en-US","url":"https://www.codecraftsman.us/wp-content/uploads/2022/10/how-to-override-a-woocommerce-products-price.gif","contentUrl":"https://www.codecraftsman.us/wp-content/uploads/2022/10/how-to-override-a-woocommerce-products-price.gif","width":600,"height":450,"caption":"How to override a WooCommerce products price"},{"@type":"WebPage","@id":"https://www.codecraftsman.us/how-to-override-a-woocommerce-products-price/#webpage","url":"https://www.codecraftsman.us/how-to-override-a-woocommerce-products-price/","name":"How to override a WooCommerce product's price - Code Craftsman","isPartOf":{"@id":"https://www.codecraftsman.us/#website"},"primaryImageOfPage":{"@id":"https://www.codecraftsman.us/how-to-override-a-woocommerce-products-price/#primaryimage"},"datePublished":"2022-10-04T02:55:28+00:00","dateModified":"2022-10-04T03:24:14+00:00","author":{"@id":"https://www.codecraftsman.us/#/schema/person/1e2117105620d79e80fbd3f77af21c9c"},"description":"Taking full control of the price rendered by WooCommerce can be a tricky task, especially considering variation products and all the different locations it can be displayed. I'll show you the combination of Wordpress pricing override hooks that worked for me.","breadcrumb":{"@id":"https://www.codecraftsman.us/how-to-override-a-woocommerce-products-price/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.codecraftsman.us/how-to-override-a-woocommerce-products-price/"]}]},{"@type":"BreadcrumbList","@id":"https://www.codecraftsman.us/how-to-override-a-woocommerce-products-price/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.codecraftsman.us/"},{"@type":"ListItem","position":2,"name":"How to override a WooCommerce product&#8217;s price"}]},{"@type":"Person","@id":"https://www.codecraftsman.us/#/schema/person/1e2117105620d79e80fbd3f77af21c9c","name":"Crafter","image":{"@type":"ImageObject","@id":"https://www.codecraftsman.us/#personlogo","inLanguage":"en-US","url":"https://secure.gravatar.com/avatar/44da38556e2e9cddb35a3ba8d696c641?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/44da38556e2e9cddb35a3ba8d696c641?s=96&d=mm&r=g","caption":"Crafter"},"sameAs":["https://www.codecraftsman.us"],"url":"https://www.codecraftsman.us/author/developer/"}]}</script>
 	
 
 
@@ -35,6 +36,7 @@
 
 <link rel="alternate" type="application/rss+xml" title="Code Craftsman &raquo; Feed" href="https://www.codecraftsman.us/feed/">
 <link rel="alternate" type="application/rss+xml" title="Code Craftsman &raquo; Comments Feed" href="https://www.codecraftsman.us/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Code Craftsman &raquo; How to override a WooCommerce product&rsquo;s price Comments Feed" href="https://www.codecraftsman.us/how-to-override-a-woocommerce-products-price/feed/">
 <link rel="stylesheet" id="wp-block-library-css" href="https://www.codecraftsman.us/wp-includes/css/dist/block-library/style.min.css?ver=5.9.3" media="all">
 <style id="global-styles-inline-css">
 body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--palette-color-1: var(--paletteColor1, #3eaf7c);--wp--preset--color--palette-color-2: var(--paletteColor2, #33a370);--wp--preset--color--palette-color-3: var(--paletteColor3, #415161);--wp--preset--color--palette-color-4: var(--paletteColor4, #2c3e50);--wp--preset--color--palette-color-5: var(--paletteColor5, #E2E7ED);--wp--preset--color--palette-color-6: var(--paletteColor6, #edeff2);--wp--preset--color--palette-color-7: var(--paletteColor7, #f8f9fb);--wp--preset--color--palette-color-8: var(--paletteColor8, #ffffff);--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--gradient--juicy-peach: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);--wp--preset--gradient--young-passion: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);--wp--preset--gradient--true-sunset: linear-gradient(to right, #fa709a 0%, #fee140 100%);--wp--preset--gradient--morpheus-den: linear-gradient(to top, #30cfd0 0%, #330867 100%);--wp--preset--gradient--plum-plate: linear-gradient(135deg, #667eea 0%, #764ba2 100%);--wp--preset--gradient--aqua-splash: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);--wp--preset--gradient--love-kiss: linear-gradient(to top, #ff0844 0%, #ffb199 100%);--wp--preset--gradient--new-retrowave: linear-gradient(to top, #3b41c5 0%, #a981bb 49%, #ffc8a9 100%);--wp--preset--gradient--plum-bath: linear-gradient(to top, #cc208e 0%, #6713d2 100%);--wp--preset--gradient--high-flight: linear-gradient(to right, #0acffe 0%, #495aff 100%);--wp--preset--gradient--teen-party: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%);--wp--preset--gradient--fabled-sunset: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);--wp--preset--gradient--arielle-smile: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);--wp--preset--gradient--itmeo-branding: linear-gradient(180deg, #2af598 0%, #009efd 100%);--wp--preset--gradient--deep-blue: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);--wp--preset--gradient--strong-bliss: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);--wp--preset--gradient--sweet-period: linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);--wp--preset--gradient--purple-division: linear-gradient(to top, #7028e4 0%, #e5b2ca 100%);--wp--preset--gradient--cold-evening: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);--wp--preset--gradient--mountain-rock: linear-gradient(to right, #868f96 0%, #596164 100%);--wp--preset--gradient--desert-hump: linear-gradient(to top, #c79081 0%, #dfa579 100%);--wp--preset--gradient--ethernal-constance: linear-gradient(to top, #09203f 0%, #537895 100%);--wp--preset--gradient--happy-memories: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);--wp--preset--gradient--grown-early: linear-gradient(to top, #0ba360 0%, #3cba92 100%);--wp--preset--gradient--morning-salad: linear-gradient(-225deg, #B7F8DB 0%, #50A7C2 100%);--wp--preset--gradient--night-call: linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);--wp--preset--gradient--mind-crawl: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);--wp--preset--gradient--angel-care: linear-gradient(-225deg, #FFE29F 0%, #FFA99F 48%, #FF719A 100%);--wp--preset--gradient--juicy-cake: linear-gradient(to top, #e14fad 0%, #f9d423 100%);--wp--preset--gradient--rich-metal: linear-gradient(to right, #d7d2cc 0%, #304352 100%);--wp--preset--gradient--mole-hall: linear-gradient(-20deg, #616161 0%, #9bc5c3 100%);--wp--preset--gradient--cloudy-knoxville: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);--wp--preset--gradient--soft-grass: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);--wp--preset--gradient--saint-petersburg: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);--wp--preset--gradient--everlasting-sky: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);--wp--preset--gradient--kind-steel: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);--wp--preset--gradient--over-sun: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);--wp--preset--gradient--premium-white: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);--wp--preset--gradient--clean-mirror: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);--wp--preset--gradient--wild-apple: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);--wp--preset--gradient--snow-again: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);--wp--preset--gradient--confident-cloud: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);--wp--preset--gradient--glass-water: linear-gradient(to top, #dfe9f3 0%, white 100%);--wp--preset--gradient--perfect-white: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
@@ -45,11 +47,11 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <link rel="stylesheet" id="ct-page-title-styles-css" href="https://www.codecraftsman.us/wp-content/themes/blocksy/static/bundle/page-title.min.css?ver=1.8.28" media="all">
 <link rel="stylesheet" id="ct-share-box-styles-css" href="https://www.codecraftsman.us/wp-content/themes/blocksy/static/bundle/share-box.min.css?ver=1.8.28" media="all">
 <link rel="stylesheet" id="ct-posts-nav-styles-css" href="https://www.codecraftsman.us/wp-content/themes/blocksy/static/bundle/posts-nav.min.css?ver=1.8.28" media="all">
-<link rel="alternate" type="application/json" href="https://www.codecraftsman.us/wp-json/wp/v2/posts/386">
+<link rel="alternate" type="application/json" href="https://www.codecraftsman.us/wp-json/wp/v2/posts/585">
 
 
-<link rel="alternate" type="application/json+oembed" href="https://www.codecraftsman.us/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.codecraftsman.us%2Fcreate-an-elementor-widget-using-vuejs-tailwind%2F">
-<link rel="alternate" type="text/xml+oembed" href="https://www.codecraftsman.us/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.codecraftsman.us%2Fcreate-an-elementor-widget-using-vuejs-tailwind%2F&amp;format=xml">
+<link rel="alternate" type="application/json+oembed" href="https://www.codecraftsman.us/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.codecraftsman.us%2Fhow-to-override-a-woocommerce-products-price%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://www.codecraftsman.us/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.codecraftsman.us%2Fhow-to-override-a-woocommerce-products-price%2F&amp;format=xml">
 
 		
 		<script>
@@ -69,7 +71,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <meta name="msapplication-TileImage" content="https://www.codecraftsman.us/wp-content/uploads/2020/08/cropped-code-craftsman-logo-270x270.png">
 	</head>
 
-<body class="post-template-default single single-post postid-386 single-format-standard wp-embed-responsive ct-loading" data-link="type-2" data-prefix="single_blog_post" data-header="type-1" data-footer="type-1" itemscope="itemscope" itemtype="https://schema.org/Blog">
+<body class="post-template-default single single-post postid-585 single-format-standard wp-embed-responsive ct-loading" data-link="type-2" data-prefix="single_blog_post" data-header="type-1" data-footer="type-1" itemscope="itemscope" itemtype="https://schema.org/Blog">
 
 <a class="skip-link show-on-focus" href="#main">
 	Skip to content</a>
@@ -125,449 +127,147 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 
 		
 		
-	<article id="post-386" class="post-386 post type-post status-publish format-standard has-post-thumbnail hentry category-code category-elementor tag-tailwind tag-vuejs">
+	<article id="post-585" class="post-585 post type-post status-publish format-standard has-post-thumbnail hentry category-code category-woocommerce category-wordpress">
 
 		
 <div class="hero-section" data-type="type-1">
 	<header class="entry-header">
-		<h1 class="page-title" title="Create an Elementor widget using VueJS + Tailwind" itemprop="headline">Create an Elementor widget using VueJS + Tailwind</h1><div class="page-description ct-hidden-sm">Everyone wants a faster performing website today. Reducing server requests by keeping your interactions on the client-side is one of the best way to gain a perception of speed and improve UX.</div><ul class="entry-meta" data-type="simple:slash"><li class="meta-author" itemprop="author" itemscope="" itemtype="https://schema.org/Person"><a href="https://www.codecraftsman.us/author/developer/" tabindex="-1" class="ct-image-container-static ct-lazy"><img data-ct-lazy="https://secure.gravatar.com/avatar/44da38556e2e9cddb35a3ba8d696c641?s=50&amp;d=mm&amp;r=g" data-object-fit="~" width="25" height="25" style="height:25px" alt="Crafter"><noscript><img src="https://secure.gravatar.com/avatar/44da38556e2e9cddb35a3ba8d696c641?s=50&amp;d=mm&amp;r=g" data-object-fit="~" width="25" height="25" style="height:25px" alt="Crafter"></noscript></a><a class="ct-meta-element-author" href="https://www.codecraftsman.us/author/developer/" title="Posts by Crafter" rel="author" itemprop="url"><span itemprop="name">Crafter</span></a></li><li class="meta-date" itemprop="datePublished"><time class="ct-meta-element-date" datetime="2022-01-13T23:55:07-06:00">January 13, 2022</time></li><li class="meta-categories" data-type="simple"><a href="https://www.codecraftsman.us/category/code/" rel="tag" class="ct-term-4">code</a>, <a href="https://www.codecraftsman.us/category/elementor/" rel="tag" class="ct-term-19">elementor</a></li></ul>	</header>
+		<h1 class="page-title" title="How to override a WooCommerce product&rsquo;s price" itemprop="headline">How to override a WooCommerce product&rsquo;s price</h1><div class="page-description ct-hidden-sm">Taking full control of the price rendered by WooCommerce can be a tricky task, especially considering variation products and all the different locations it can be displayed. I'll show you the combination of hooks that worked for me.</div><ul class="entry-meta" data-type="simple:slash"><li class="meta-author" itemprop="author" itemscope="" itemtype="https://schema.org/Person"><a href="https://www.codecraftsman.us/author/developer/" tabindex="-1" class="ct-image-container-static ct-lazy"><img data-ct-lazy="https://secure.gravatar.com/avatar/44da38556e2e9cddb35a3ba8d696c641?s=50&amp;d=mm&amp;r=g" data-object-fit="~" width="25" height="25" style="height:25px" alt="Crafter"><noscript><img src="https://secure.gravatar.com/avatar/44da38556e2e9cddb35a3ba8d696c641?s=50&amp;d=mm&amp;r=g" data-object-fit="~" width="25" height="25" style="height:25px" alt="Crafter"></noscript></a><a class="ct-meta-element-author" href="https://www.codecraftsman.us/author/developer/" title="Posts by Crafter" rel="author" itemprop="url"><span itemprop="name">Crafter</span></a></li><li class="meta-date" itemprop="datePublished"><time class="ct-meta-element-date" datetime="2022-10-03T20:55:28-06:00">October 3, 2022</time></li><li class="meta-categories" data-type="simple"><a href="https://www.codecraftsman.us/category/code/" rel="tag" class="ct-term-4">code</a>, <a href="https://www.codecraftsman.us/category/woocommerce/" rel="tag" class="ct-term-26">woocommerce</a>, <a href="https://www.codecraftsman.us/category/wordpress/" rel="tag" class="ct-term-15">wordpress</a></li></ul>	</header>
 </div>
 
 		
 		
 		<div class="entry-content">
 			
-<p>Visual website builders have certainly come a long way since I first starting building websites. I consider <a href="https://be.elementor.com/visit/?bta=203027&amp;nci=5383" target="_blank" rel="noreferrer noopener sponsored nofollow">Elementor</a> to be one of the best available and by the number of plugin installs it currently has, many others do as well.</p>
+<p>There&rsquo;s a lot of posts out there describing how to force your own price to display when WooCommerce renders a product. Many of them are outdated or don&rsquo;t handle all needed situations. The technique I&rsquo;m sharing below is based on:</p>
 
 
 
-<p>One of Elementor&rsquo;s most powerful features is the ability to create your own custom widgets. If it doesn&rsquo;t come in the Free or <a href="https://be.elementor.com/visit/?bta=203027&amp;nci=5383" target="_blank" rel="noreferrer noopener sponsored nofollow">Pro plugin</a>, you can find it in one of many Elementor widget kits available for sale, or you can build it yourself.</p>
+<p><strong>WooCommerce Version 6.9.4</strong></p>
 
 
 
-<p>Today we&rsquo;re going to opt for the latter.</p>
+<blockquote class="wp-block-quote"><p>These filters and actions will affect simple and variable products on the category page, product detail page, cart page, and mini-cart view. My hooks use a fixed price, but you can insert any custom logic needed into your own implementation.</p></blockquote>
 
 
 
-<blockquote class="wp-block-quote"><p>Our task today is to build a simple, reactive widget using VueJS for interactivity and style it with Tailwind. Personally, I like to keep the NPM packages to a minimum, so I&rsquo;ll be demonstrating my own light-weight recipe for building the assets for this widget.</p></blockquote>
+<p>I setup a visual example, first showing a typical simple and variable product on an archive/category page:</p>
 
 
 
-<p>Our widget is a settings form. After compiling and transpiling it looks like below. I know, it&rsquo;s not sexy, but it&rsquo;s for demonstration purposes only, so deal with it.</p>
+<figure class="wp-block-image size-full"><img width="670" height="470" src="https://www.codecraftsman.us/wp-content/uploads/2022/10/how-to-override-a-woocommerce-products-price-default-1.gif" alt="" class="wp-image-593"><figcaption><em>Archive page before hooks applied</em></figcaption></figure>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img width="526" height="307" src="https://www.codecraftsman.us/wp-content/uploads/2022/01/elementor-vue-tailwind-widget-01.jpg" alt="" class="wp-image-389" srcset="https://www.codecraftsman.us/wp-content/uploads/2022/01/elementor-vue-tailwind-widget-01.jpg 526w,https://www.codecraftsman.us/wp-content/uploads/2022/01/elementor-vue-tailwind-widget-01-300x175.jpg 300w" sizes="(max-width: 526px) 100vw, 526px"><figcaption>Sample Elementor widget using VueJS + Tailwind</figcaption></figure></div>
+<figure class="wp-block-image size-full"><img loading="lazy" width="670" height="470" src="https://www.codecraftsman.us/wp-content/uploads/2022/10/how-to-override-a-woocommerce-products-price-altered-1.gif" alt="" class="wp-image-594"><figcaption><em>Overridden prices with the filter and action hooks enabled.</em></figcaption></figure>
 
 
 
-<p>If you&rsquo;ve already integrated <a href="https://be.elementor.com/visit/?bta=203027&amp;nci=5383" target="_blank" rel="noreferrer noopener sponsored nofollow">Elementor</a> widgets into your theme, this step will be a bit redundant for you. I typically like to drop a <code>widgets</code> folder within the <code>includes</code> directory of my theme.</p>
+<figure class="wp-block-image size-full"><img loading="lazy" width="670" height="500" src="https://www.codecraftsman.us/wp-content/uploads/2022/10/override-woocommerce-price-pdp-default.gif" alt="" class="wp-image-590"><figcaption><em>The detail of a variable product before hooks are applied.</em></figcaption></figure>
 
 
 
-<p>Create a structure like so:</p>
+<figure class="wp-block-image size-full"><img loading="lazy" width="670" height="500" src="https://www.codecraftsman.us/wp-content/uploads/2022/10/override-woocommerce-price-pdp-altered.gif" alt="" class="wp-image-591"><figcaption><em>The variable product detail after applying override hooks.</em></figcaption></figure>
 
 
 
-<pre class="wp-block-code"><code class="">themes/
-&#9500;&#9472; theme-name/
-&#9474;  &#9500;&#9472; includes/
-&#9474;  &#9474;  &#9500;&#9472; widgets/
-&#9474;  &#9474;  &#9474;  &#9500;&#9472; widget-name/
-&#9474;  &#9474;  &#9474;  &#9474;  &#9500;&#9472; dist/
-&#9474;  &#9474;  &#9474;  &#9474;  &#9500;&#9472; src/
-&#9474;  &#9474;  &#9474;  &#9474;  &#9474;  &#9500;&#9472; css/
-&#9474;  &#9474;  &#9474;  &#9474;  &#9474;  &#9500;&#9472; js/
-&#9474;  &#9474;  &#9474;  &#9474;  &#9474;  &#9500;&#9472; views/
-&#9474;  &#9474;  &#9474;  &#9474;  &#9474;  &#9474;  &#9500;&#9472; components/
-&#9474;  &#9474;  &#9474;  &#9474;  &#9500;&#9472; init.php
-&#9474;  &#9474;  &#9474;  &#9474;  &#9500;&#9472; package.json
-&#9474;  &#9474;  &#9474;  &#9474;  &#9500;&#9472; webpack.mix.js
-</code></pre>
+<figure class="wp-block-image size-full"><img loading="lazy" width="670" height="376" src="https://www.codecraftsman.us/wp-content/uploads/2022/10/override-woocommerce-price-cart-altered.gif" alt="" class="wp-image-592"><figcaption><em>The WooCommerce cart view after applying override hooks.</em></figcaption></figure>
 
 
 
-<p>Within your init.php add the following code:</p>
+<hr class="wp-block-separator has-text-color has-background has-palette-color-1-background-color has-palette-color-1-color is-style-wide">
 
 
 
-<pre class="wp-block-code"><code lang="php" class="language-php">&lt;?php
+<h3>Implementing the price override</h3>
 
-namespace Crafter\Widgets;
 
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
+
+<p>To achieve this level of control over your product pricing implement these filters and actions in your functions.php file or custom class:</p>
+
+
+
+<pre class="wp-block-code has-small-font-size"><code lang="php" class="language-php line-numbers">function maybe_alter_product_price_excluding_tax( $price, $qty, $product ){
+
+    $price = 999.99;
+
+    return $price;
 }
 
-/***
- * Class Sample_Form
- * @package Crafter\Widgets
- */
-class Sample_Form extends \Elementor\Widget_Base {
-	
-	private $_widget_id = 'sample-form';
-	
-	public function __construct( $data = [], $args = null ) {
-		
-		parent::__construct( $data, $args );
-		
-		// Styles for this widget are transpiled at theme level using Tailwind
-		// Reference root package.json &gt; scripts &gt; widget-*
+function maybe_alter_product_price( $price, $product ){
 
-		wp_register_script(
-            $this-&gt;_widget_id . '-script',
-			get_template_directory_uri() . '/includes/widgets/'.$this-&gt;_widget_id . '/dist/app.js',
-			['elementor-frontend-modules'], // These libraries must be loaded first
-			null, true );
-	}
-	
-	public function get_name() {
-		return $this-&gt;_widget_id;
-	}
-	
-	public function get_title() {
-		return 'Sample Form';
-	}
-	
-	public function get_icon() {
-		return 'eicon-elementor-circle';
-	}
-	
-	public function get_categories() {
-		return [ 'basic' ];
-	}
+    $price = 999.99;
 
-	public function get_script_depends() {
-		return [$this-&gt;_widget_id.'-script'];
-	}
-	
-	protected function _register_controls() {
-
-	}
-	
-	protected function render() {
-		
-		$element_id = $this-&gt;_widget_id . '-' . $this-&gt;get_id();
-		
-		echo '&lt;div id="' . $element_id . '" class="sample-form loading"&gt;Loading ...&lt;/div&gt;';
-	}
-
+    return $price;
 }
-</code></pre>
 
+function maybe_alter_cart_item_data( $cart_item_data, $product_id, $variation_id ){
 
+    $cart_item_data['altered_price'] = 999.99;
 
-<p>Setup your package.json similar to this:</p>
+    return $cart_item_data;
+}
 
+function maybe_alter_calculate_totals( $cart_obj ) {
 
+    if ( is_admin() &amp;&amp; ! defined( 'DOING_AJAX' ) )
+        return;
 
-<pre class="wp-block-code"><code lang="json" class="language-json">{
-  "name": "sample-form",
-  "version": "1.0.0",
-  "description": "",
-  "main": "src/js/app.js",
-  "scripts": {
-    "dev": "mix",
-    "watch": "mix watch",
-    "watch-poll": "mix watch -- --watch-options-poll=1000",
-    "hot": "mix watch --hot",
-    "prod": "mix --production"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "laravel-mix": "^6.0.39",
-    "vue": "^3.2.26",
-    "vue-loader": "^16.8.3"
-  }
-}</code></pre>
+    foreach ( $cart_obj-&gt;get_cart() as $key=&gt;$value ) {
 
-
-
-<p>Open your widget directory in the terminal and execute <code>npm install</code> to get those assets ready.</p>
-
-
-
-<p>After creating the <code>webpack.mix.js</code> file, paste in these contents:</p>
-
-
-
-<pre class="wp-block-code"><code lang="javascript" class="language-javascript">let mix = require('laravel-mix');
-
-mix.js('src/js/app.js', 'dist/')
-	.vue({ version: 3});</code></pre>
-
-
-
-<p>Next let&rsquo;s create the UI for the widget in <code>src/views/App.vue</code>.</p>
-
-
-
-<pre class="wp-block-code"><code lang="markup" class="language-markup">&lt;template&gt;
-  &lt;div class="shadow-md rounded-lg p-10 divide-y w-[500px]"&gt;
-    &lt;div v-for="setting in settings" class="flex items-center justify-between py-2"&gt;
-      &lt;span class="flex-grow flex flex-col"&gt;
-        &lt;span class="text-sm font-medium text-gray-900" id="availability-label"&gt;{{setting.name}}&lt;/span&gt;
-        &lt;span class="text-sm text-gray-500" id="availability-description"&gt;{{setting.description}}&lt;/span&gt;
-      &lt;/span&gt;
-      &lt;button @click="change(setting)" class="shadow rounded-full px-3 py-1 uppercase font-bold text-white border-0" :class="setting.value ? 'bg-green-600' : 'bg-neutral-400'"&gt;{{setting.value ? 'On' : 'Off'}}&lt;/button&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/template&gt;
-
-&lt;script&gt;
-
-import { reactive } from 'vue';
-
-export default {
-  name: 'App',
-  components: {},
-  setup() {
-    const settings = reactive( [
-      {name: 'Setting A', description: 'Nulla amet tempus sit accumsan. Aliquet turpis sed sit lacinia.', value: false},
-      {name: 'Setting B', description: 'Aenean egestas accumsan ipsum feugiat mattis.', value: true},
-      {name: 'Setting C', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', value: false},
-    ] );
-
-    const change = ( setting ) =&gt; {
-      setting.value = !setting.value;
+        if ( isset( $value['altered_price'] ) ) {
+            $value['data']-&gt;set_price( $value['altered_price'] );
+        }
     }
-
-    return {settings, change};
-  },
-  mounted() {
-    // Access widget settings using: `this.settings.key_name`;
-  },
-};
-&lt;/script&gt;
-
-&lt;style&gt;&lt;/style&gt;</code></pre>
-
-
-
-<p>We now need some code to startup the App. Create a <code>startup.js</code> file in <code>src/js/</code> like so:</p>
-
-
-
-<pre class="wp-block-code"><code lang="javascript" class="language-javascript">import {createApp} from "vue";
-import App from "../views/App";
-
-export default class Startup {
-
-	run( widgetSelector ) {
-
-		// Find all elements that match the widget selector
-		let elements = document.querySelectorAll( widgetSelector );
-
-		elements.forEach( ( el ) =&gt; {
-
-			// Create Vue app instance
-			const app = createApp( App );
-
-			// Retrieve the widget config from data- attribute of parent
-			const config = el.parentElement.parentElement.getAttribute( 'data-settings' );
-
-			// Parse the config and set in app properties
-			app.config.globalProperties.settings = JSON.parse( config );
-
-			// Render the app
-			app.mount( '#' + el.id );
-
-		});
-
-		return this;
-	}
-}</code></pre>
-
-
-
-<p><em>This will locate any html elements that match the given selector and render your widget within. It also injects any Elementor control settings you&rsquo;ve configured into each instance of the App.</em></p>
-
-
-
-<p>The last piece of this widget is the main javascript file in <code>src/js/app.js</code>, which handles the Elementor frontend initialization event. It runs your widget startup only after the Elementor client-side assets have fully loaded.</p>
-
-
-
-<pre class="wp-block-code"><code lang="javascript" class="language-javascript">import Startup from './startup';
-
-// Wait for the Elementor Frontend to load
-jQuery( window ).on( 'elementor/frontend/init', () =&gt; {
-
-	const widgetIdentifier = 'sample-form';
-
-	// Wait for the widget to be ready
-	elementorFrontend.hooks.addAction( 'frontend/element_ready/global', ( $scope ) =&gt; {
-
-		// Check for the correct type of widget
-		const widgetType = $scope.data( 'widget_type' );
-
-		if ( widgetType &amp;&amp; $scope.data( 'widget_type' ).indexOf( widgetIdentifier ) &gt; -1 ){
-
-			// The widget is ready, now startup
-			new Startup().run( '.' + widgetIdentifier );
-		}
-
-	} );
-});</code></pre>
-
-
-
-<p>Now we should have all the required layout and code files in place, so return to your terminal for the widget directory and run <code>npm run watch</code>.</p>
-
-
-
-<h2>You are not done.</h2>
-
-
-
-<p>If you quit now, you&rsquo;ll be missing the widget styling. Read on to setup Tailwind.</p>
-
-
-
-<p>If we setup Tailwind inside each of our widgets we&rsquo;ll end up with replicated Tailwind classes overwriting each other for as many widgets as we develop. Not good.</p>
-
-
-
-<blockquote class="wp-block-quote"><p>I&rsquo;ve opted to create a Tailwind workflow that runs from the root of the theme instead and transpiles all of the widget css together in one consolidated file. Here&rsquo;s how you set that up.</p></blockquote>
-
-
-
-<p>If you already have a package.json in your theme you will need to merge a few npm packages in, otherwise paste what I have here:</p>
-
-
-
-<pre class="wp-block-code"><code lang="json" class="language-json">{
-  "name": "crafter-default",
-  "version": "1.0.0",
-  "description": "",
-  "scripts": {
-    "widget-dev": "mix",
-    "widget-watch": "mix watch",
-    "widget-watch-poll": "mix watch -- --watch-options-poll=1000",
-    "widget-hot": "mix watch --hot",
-    "widget-prod": "mix --production"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "laravel-mix": "^6.0.39",
-    "sass": "^1.46.0",
-    "sass-loader": "^12.4.0",
-    "tailwindcss": "^3.0.11"
-  },
-  "dependencies": {}
 }
-</code></pre>
+
+add_filter( 'woocommerce_product_get_price', 'maybe_alter_product_price', 99, 2 );
+add_filter( 'woocommerce_get_price_excluding_tax', 'maybe_alter_product_price_excluding_tax', 99, 3 );
+add_filter( 'woocommerce_variation_prices_price', 'maybe_alter_product_price', 99, 2 );
+add_filter( 'woocommerce_add_cart_item_data', 'maybe_alter_cart_item_data', 99, 3 );
+add_action( 'woocommerce_before_calculate_totals', 'maybe_alter_calculate_totals', 99, 1 );</code></pre>
 
 
 
-<p>Also in your theme root create both <code>tailwind.config.js</code> and <code>webpack.mix.js</code> files and paste the following code blocks into them:</p>
-
-
-
-<pre title="tailwind.config.js" class="wp-block-code"><code lang="javascript" class="language-javascript">module.exports = {
-  mode: 'jit',
-  content: [
-    './includes/widgets/**/src/views/**/*.vue'
-  ],
-  theme: {},
-  plugins: [],
-}
-</code></pre>
-
-
-
-<pre title="webpack.mix.js" class="wp-block-code"><code lang="javascript" class="language-javascript">let mix = require('laravel-mix');
-
-const tailwindcss = require('tailwindcss');
-
-mix.sass('src/scss/widgets.scss', 'assets/css/')
-	.options({
-		processCssUrls: false,
-		postCss: [tailwindcss('./tailwind.config.js')],
-	});</code></pre>
-
-
-
-<p>Open a terminal to your theme root and run <code>npm install</code>.</p>
-
-
-
-<p>You&rsquo;ll notice the <code>mix.sass()</code> processor is configured to output css into an <code>assets/css</code> folder. make sure that is created or adjust it for your theme.</p>
-
-
-
-<p>Now you&rsquo;re ready to build your stylesheet, so execute <code>npm run widget-watch</code>.</p>
-
-
-
-<h2>Almost done!</h2>
-
-
-
-<p>In order for WordPress and <a href="https://be.elementor.com/visit/?bta=203027&amp;nci=5383" target="_blank" rel="noreferrer noopener sponsored nofollow">Elementor</a> to know about your widget and render it properly, you need to register it using the code below. Place it in your functions.php file or in a relevant class.</p>
-
-
-
-<pre class="wp-block-code"><code lang="php" class="language-php">add_action( 'wp_enqueue_scripts', function() {
-
-    wp_enqueue_style(
-        'crafter-widget-style',
-        get_template_directory_uri() . '/assets/css/widgets.css',
-        [],
-        '1.0'
-    );
-} );
-
-add_action( 'elementor/widgets/widgets_registered', function(){
-    require_once( __DIR__ . '/includes/widgets/sample-form/init.php' );
-
-    \Elementor\Plugin::instance()-&gt;widgets_manager-&gt;register_widget_type( new \Crafter\Widgets\Sample_Form() );
-});</code></pre>
-
-
-
-<p>Okay, that&rsquo;s it. Hopefully I didn&rsquo;t miss a step and leave you stuck. Drop the new widget onto a page and try it out.</p>
+<p></p>
 		</div>
 
 		
-					<div class="entry-tags"><a href="https://www.codecraftsman.us/tag/tailwind/" rel="tag"># tailwind</a><a href="https://www.codecraftsman.us/tag/vuejs/" rel="tag"># vuejs</a></div>		
+							
 					
 		<div class="ct-share-box ct-hidden-sm" data-location="bottom" data-type="type-1">
 			
 			<div data-icons-type="simple">
 							
-				<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.codecraftsman.us%2Fcreate-an-elementor-widget-using-vuejs-tailwind%2F" data-network="facebook" aria-label="Facebook" rel="noopener noreferrer nofollow">
+				<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.codecraftsman.us%2Fhow-to-override-a-woocommerce-products-price%2F" data-network="facebook" aria-label="Facebook" rel="noopener noreferrer nofollow">
 					<span class="ct-icon-container">
 				<svg class="ct-icon" width="20px" height="20px" viewbox="0 0 20 20" aria-hidden="true">
 					<path d="M20,10.1c0-5.5-4.5-10-10-10S0,4.5,0,10.1c0,5,3.7,9.1,8.4,9.9v-7H5.9v-2.9h2.5V7.9C8.4,5.4,9.9,4,12.2,4c1.1,0,2.2,0.2,2.2,0.2v2.5h-1.3c-1.2,0-1.6,0.8-1.6,1.6v1.9h2.8L13.9,13h-2.3v7C16.3,19.2,20,15.1,20,10.1z"></path>
 				</svg>
 			</span>				</a>
 							
-				<a href="https://twitter.com/share?url=https%3A%2F%2Fwww.codecraftsman.us%2Fcreate-an-elementor-widget-using-vuejs-tailwind%2F&amp;text=Create%20an%20Elementor%20widget%20using%20VueJS%20%2B%20Tailwind" data-network="twitter" aria-label="Twitter" rel="noopener noreferrer nofollow">
+				<a href="https://twitter.com/share?url=https%3A%2F%2Fwww.codecraftsman.us%2Fhow-to-override-a-woocommerce-products-price%2F&amp;text=How%20to%20override%20a%20WooCommerce%20product%26%238217%3Bs%20price" data-network="twitter" aria-label="Twitter" rel="noopener noreferrer nofollow">
 					<span class="ct-icon-container">
 				<svg class="ct-icon" width="20px" height="20px" viewbox="0 0 20 20" aria-hidden="true">
 					<path d="M20,3.8c-0.7,0.3-1.5,0.5-2.4,0.6c0.8-0.5,1.5-1.3,1.8-2.3c-0.8,0.5-1.7,0.8-2.6,1c-0.7-0.8-1.8-1.3-3-1.3c-2.3,0-4.1,1.8-4.1,4.1c0,0.3,0,0.6,0.1,0.9C6.4,6.7,3.4,5.1,1.4,2.6C1,3.2,0.8,3.9,0.8,4.7c0,1.4,0.7,2.7,1.8,3.4C2,8.1,1.4,7.9,0.8,7.6c0,0,0,0,0,0.1c0,2,1.4,3.6,3.3,4c-0.3,0.1-0.7,0.1-1.1,0.1c-0.3,0-0.5,0-0.8-0.1c0.5,1.6,2,2.8,3.8,2.8c-1.4,1.1-3.2,1.8-5.1,1.8c-0.3,0-0.7,0-1-0.1c1.8,1.2,4,1.8,6.3,1.8c7.5,0,11.7-6.3,11.7-11.7c0-0.2,0-0.4,0-0.5C18.8,5.3,19.4,4.6,20,3.8z"></path>
 				</svg>
 			</span>				</a>
 															
-				<a href="https://reddit.com/submit?url=https%3A%2F%2Fwww.codecraftsman.us%2Fcreate-an-elementor-widget-using-vuejs-tailwind%2F&amp;title=Create%20an%20Elementor%20widget%20using%20VueJS%20%2B%20Tailwind" data-network="reddit" aria-label="Reddit" rel="noopener noreferrer nofollow">
+				<a href="https://reddit.com/submit?url=https%3A%2F%2Fwww.codecraftsman.us%2Fhow-to-override-a-woocommerce-products-price%2F&amp;title=How%20to%20override%20a%20WooCommerce%20product%26%238217%3Bs%20price" data-network="reddit" aria-label="Reddit" rel="noopener noreferrer nofollow">
 					<span class="ct-icon-container">
 				<svg class="ct-icon" width="20px" height="20px" viewbox="0 0 20 20" aria-hidden="true">
 					<path d="M11.7,0.9c-0.9,0-2,0.7-2.1,3.9c0.1,0,0.3,0,0.4,0c0.2,0,0.3,0,0.5,0c0.1-1.9,0.6-3.1,1.3-3.1c0.3,0,0.5,0.2,0.8,0.5c0.4,0.4,0.9,0.9,1.8,1.1c0-0.1,0-0.2,0-0.4c0-0.2,0-0.4,0.1-0.5c-0.6-0.2-0.9-0.5-1.2-0.8C12.8,1.3,12.4,0.9,11.7,0.9z M16.9,1.3c-1,0-1.7,0.8-1.7,1.7s0.8,1.7,1.7,1.7s1.7-0.8,1.7-1.7S17.9,1.3,16.9,1.3z M10,5.7c-5.3,0-9.5,2.7-9.5,6.5s4.3,6.9,9.5,6.9s9.5-3.1,9.5-6.9S15.3,5.7,10,5.7z M2.4,6.1c-0.6,0-1.2,0.3-1.7,0.7C0,7.5-0.2,8.6,0.2,9.5C0.9,8.2,2,7.1,3.5,6.3C3.1,6.2,2.8,6.1,2.4,6.1z M17.6,6.1c-0.4,0-0.7,0.1-1.1,0.3c1.5,0.8,2.6,1.9,3.2,3.2c0.4-0.9,0.3-2-0.5-2.7C18.8,6.3,18.2,6.1,17.6,6.1z M6.5,9.6c0.7,0,1.3,0.6,1.3,1.3s-0.6,1.3-1.3,1.3s-1.3-0.6-1.3-1.3S5.8,9.6,6.5,9.6z M13.5,9.6c0.7,0,1.3,0.6,1.3,1.3s-0.6,1.3-1.3,1.3s-1.3-0.6-1.3-1.3S12.8,9.6,13.5,9.6z M6.1,14.3c0.1,0,0.2,0.1,0.3,0.2c0,0.1,1.1,1.4,3.6,1.4c2.6,0,3.6-1.4,3.6-1.4c0.1-0.2,0.4-0.2,0.6-0.1c0.2,0.1,0.2,0.4,0.1,0.6c-0.1,0.1-1.3,1.8-4.3,1.8c-3,0-4.2-1.7-4.3-1.8c-0.1-0.2-0.1-0.5,0.1-0.6C5.9,14.4,6,14.3,6.1,14.3z"></path>
 				</svg>
 			</span>				</a>
 							
-				<a href="https://news.ycombinator.com/submitlink?u=https%3A%2F%2Fwww.codecraftsman.us%2Fcreate-an-elementor-widget-using-vuejs-tailwind%2F&amp;t=Create%20an%20Elementor%20widget%20using%20VueJS%20%2B%20Tailwind" data-network="hacker_news" aria-label="Hacker News" rel="noopener noreferrer nofollow">
+				<a href="https://news.ycombinator.com/submitlink?u=https%3A%2F%2Fwww.codecraftsman.us%2Fhow-to-override-a-woocommerce-products-price%2F&amp;t=How%20to%20override%20a%20WooCommerce%20product%26%238217%3Bs%20price" data-network="hacker_news" aria-label="Hacker News" rel="noopener noreferrer nofollow">
 					<span class="ct-icon-container">
 				<svg class="ct-icon" width="20px" height="20px" viewbox="0 0 20 20" aria-hidden="true">
 					<path d="M0,0v20h20V0H0z M11.2,11.8v4.7H8.8v-4.7L4.7,4.1h1.9l3.4,6l3.4-6h1.9L11.2,11.8z"></path>
 				</svg>
 			</span>				</a>
 																															
-				<a href="mailto:?subject=Create%20an%20Elementor%20widget%20using%20VueJS%20%2B%20Tailwind&amp;body=https%3A%2F%2Fwww.codecraftsman.us%2Fcreate-an-elementor-widget-using-vuejs-tailwind%2F" data-network="email" aria-label="Email" rel="noopener noreferrer nofollow">
+				<a href="mailto:?subject=How%20to%20override%20a%20WooCommerce%20product%26%238217%3Bs%20price&amp;body=https%3A%2F%2Fwww.codecraftsman.us%2Fhow-to-override-a-woocommerce-products-price%2F" data-network="email" aria-label="Email" rel="noopener noreferrer nofollow">
 					<span class="ct-icon-container">
 				<svg class="ct-icon" width="20" height="20" viewbox="0 0 20 20" aria-hidden="true">
 					<path d="M10,10.1L0,4.7C0.1,3.2,1.4,2,3,2h14c1.6,0,2.9,1.2,3,2.8L10,10.1z M10,11.8c-0.1,0-0.2,0-0.4-0.1L0,6.4V15c0,1.7,1.3,3,3,3h4.9h4.3H17c1.7,0,3-1.3,3-3V6.4l-9.6,5.2C10.2,11.7,10.1,11.7,10,11.8z"></path>
@@ -580,28 +280,19 @@ add_action( 'elementor/widgets/widgets_registered', function(){
 			
 		
 		<nav class="post-navigation ">
-							<a href="https://www.codecraftsman.us/create-a-hexagonal-button-in-css/" class="nav-item-prev">
-					<figure class="ct-image-container   ct-lazy"><img width="300" height="225" class="attachment-medium size-medium wp-post-image" alt="" loading="lazy" data-ct-lazy="https://www.codecraftsman.us/wp-content/uploads/2021/10/hexagonal-button-with-htmlcss-300x225.gif" data-object-fit="~" itemprop="image"><noscript><img width="300" height="225" src="https://www.codecraftsman.us/wp-content/uploads/2021/10/hexagonal-button-with-htmlcss-300x225.gif" class="attachment-medium size-medium wp-post-image" alt="" loading="lazy"></noscript><svg width="20px" height="15px" viewbox="0 0 20 15"><polygon points="0,7.5 5.5,13 6.4,12.1 2.4,8.1 20,8.1 20,6.9 2.4,6.9 6.4,2.9 5.5,2 "></polygon></svg><span class="ct-ratio" style="padding-bottom: 100%"></span></figure>
+							<a href="https://www.codecraftsman.us/how-i-built-my-hyper-fast-blog-for-free/" class="nav-item-prev">
+					<figure class="ct-image-container   ct-lazy"><img width="300" height="225" class="attachment-medium size-medium wp-post-image" alt="How I built my hyper-fast blog for free" loading="lazy" data-ct-lazy="https://www.codecraftsman.us/wp-content/uploads/2022/09/how-i-built-my-hyper-fast-blog-for-free-300x225.gif" data-object-fit="~" itemprop="image"><noscript><img width="300" height="225" src="https://www.codecraftsman.us/wp-content/uploads/2022/09/how-i-built-my-hyper-fast-blog-for-free-300x225.gif" class="attachment-medium size-medium wp-post-image" alt="How I built my hyper-fast blog for free" loading="lazy"></noscript><svg width="20px" height="15px" viewbox="0 0 20 15"><polygon points="0,7.5 5.5,13 6.4,12.1 2.4,8.1 20,8.1 20,6.9 2.4,6.9 6.4,2.9 5.5,2 "></polygon></svg><span class="ct-ratio" style="padding-bottom: 100%"></span></figure>
 					<div class="item-content">
 						<span class="item-label">
 							Previous <span>Post</span>						</span>
 
 													<span class="item-title ct-hidden-sm">
-								Create a hexagonal button in css							</span>
+								How I built my hyper-fast blog for free							</span>
 											</div>
 
 				</a>
 			
-							<a href="https://www.codecraftsman.us/how-to-share-vue-components-between-multiple-projects/" class="nav-item-next">
-					<div class="item-content">
-						<span class="item-label">
-							Next <span>Post</span>						</span>
-
-													<span class="item-title ct-hidden-sm">
-								How to share Vue components between multiple projects							</span>
-											</div>
-
-					<figure class="ct-image-container   ct-lazy"><img width="300" height="225" class="attachment-medium size-medium wp-post-image" alt="" loading="lazy" data-ct-lazy="https://www.codecraftsman.us/wp-content/uploads/2022/02/share-vue-components-between-projects-300x225.gif" data-object-fit="~" itemprop="image"><noscript><img width="300" height="225" src="https://www.codecraftsman.us/wp-content/uploads/2022/02/share-vue-components-between-projects-300x225.gif" class="attachment-medium size-medium wp-post-image" alt="" loading="lazy"></noscript><svg width="20px" height="15px" viewbox="0 0 20 15"><polygon points="14.5,2 13.6,2.9 17.6,6.9 0,6.9 0,8.1 17.6,8.1 13.6,12.1 14.5,13 20,7.5 "></polygon></svg><span class="ct-ratio" style="padding-bottom: 100%"></span></figure>				</a>
+							<div class="nav-item-next"></div>
 			
 		</nav>
 
@@ -623,12 +314,12 @@ add_action( 'elementor/widgets/widgets_registered', function(){
 			
 							
 				<article itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
-					<a class="ct-image-container ct-lazy" href="https://www.codecraftsman.us/how-to-override-a-woocommerce-products-price/" aria-label="How to override a WooCommerce product&rsquo;s price" tabindex="-1"><img width="300" height="225" class="attachment-medium size-medium wp-post-image" alt="How to override a WooCommerce products price" loading="lazy" data-ct-lazy="https://www.codecraftsman.us/wp-content/uploads/2022/10/how-to-override-a-woocommerce-products-price-300x225.gif" data-object-fit="~" itemprop="image"><noscript><img width="300" height="225" src="https://www.codecraftsman.us/wp-content/uploads/2022/10/how-to-override-a-woocommerce-products-price-300x225.gif" class="attachment-medium size-medium wp-post-image" alt="How to override a WooCommerce products price" loading="lazy"></noscript><span class="ct-ratio" style="padding-bottom: 56.3%"></span></a>
+					<a class="ct-image-container ct-lazy" href="https://www.codecraftsman.us/how-i-built-my-hyper-fast-blog-for-free/" aria-label="How I built my hyper-fast blog for free" tabindex="-1"><img width="300" height="225" class="attachment-medium size-medium wp-post-image" alt="How I built my hyper-fast blog for free" loading="lazy" data-ct-lazy="https://www.codecraftsman.us/wp-content/uploads/2022/09/how-i-built-my-hyper-fast-blog-for-free-300x225.gif" data-object-fit="~" itemprop="image"><noscript><img width="300" height="225" src="https://www.codecraftsman.us/wp-content/uploads/2022/09/how-i-built-my-hyper-fast-blog-for-free-300x225.gif" class="attachment-medium size-medium wp-post-image" alt="How I built my hyper-fast blog for free" loading="lazy"></noscript><span class="ct-ratio" style="padding-bottom: 56.3%"></span></a>
 											<h4 class="related-entry-title" itemprop="name">
-							<a href="https://www.codecraftsman.us/how-to-override-a-woocommerce-products-price/" itemprop="url">How to override a WooCommerce product&rsquo;s price</a>
+							<a href="https://www.codecraftsman.us/how-i-built-my-hyper-fast-blog-for-free/" itemprop="url">How I built my hyper-fast blog for free</a>
 						</h4>
 					
-					<ul class="entry-meta" data-type="simple:slash"><li class="meta-date" itemprop="datePublished"><time class="ct-meta-element-date" datetime="2022-10-03T20:55:28-06:00">October 3, 2022</time></li></ul>				</article>
+					<ul class="entry-meta" data-type="simple:slash"><li class="meta-date" itemprop="datePublished"><time class="ct-meta-element-date" datetime="2022-09-24T22:10:24-06:00">September 24, 2022</time></li></ul>				</article>
 							
 				<article itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
 					<a class="ct-image-container ct-lazy" href="https://www.codecraftsman.us/add-bcc-address-to-all-woocommerce-emails/" aria-label="Add Bcc address to all WooCommerce emails" tabindex="-1"><img width="300" height="225" class="attachment-medium size-medium wp-post-image" alt="" loading="lazy" data-ct-lazy="https://www.codecraftsman.us/wp-content/uploads/2022/06/add-bcc-address-to-all-woocommerce-emails-300x225.gif" data-object-fit="~" itemprop="image"><noscript><img width="300" height="225" src="https://www.codecraftsman.us/wp-content/uploads/2022/06/add-bcc-address-to-all-woocommerce-emails-300x225.gif" class="attachment-medium size-medium wp-post-image" alt="" loading="lazy"></noscript><span class="ct-ratio" style="padding-bottom: 56.3%"></span></a>
@@ -639,12 +330,12 @@ add_action( 'elementor/widgets/widgets_registered', function(){
 					<ul class="entry-meta" data-type="simple:slash"><li class="meta-date" itemprop="datePublished"><time class="ct-meta-element-date" datetime="2022-06-07T20:50:14-06:00">June 7, 2022</time></li></ul>				</article>
 							
 				<article itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
-					<a class="ct-image-container ct-lazy" href="https://www.codecraftsman.us/how-to-code-a-throttle-or-debounce-function-in-lua/" aria-label="How To: Code a Throttle or Debounce function in Lua" tabindex="-1"><img width="300" height="225" class="attachment-medium size-medium wp-post-image" alt="how to code a throttle or debounce function in lua" loading="lazy" data-ct-lazy="https://www.codecraftsman.us/wp-content/uploads/2022/04/how-to-code-a-throttle-or-debounce-function-in-lua-300x225.gif" data-object-fit="~" itemprop="image"><noscript><img width="300" height="225" src="https://www.codecraftsman.us/wp-content/uploads/2022/04/how-to-code-a-throttle-or-debounce-function-in-lua-300x225.gif" class="attachment-medium size-medium wp-post-image" alt="how to code a throttle or debounce function in lua" loading="lazy"></noscript><span class="ct-ratio" style="padding-bottom: 56.3%"></span></a>
+					<a class="ct-image-container ct-lazy" href="https://www.codecraftsman.us/extend-bc-for-wp-show-customers-their-available-store-credit/" aria-label="Extend BC for WP: Show customers their available store credit" tabindex="-1"><img width="300" height="225" class="attachment-medium size-medium wp-post-image" alt="Extending Bigcommerce for Wordpress" loading="lazy" data-ct-lazy="https://www.codecraftsman.us/wp-content/uploads/2022/05/show-available-bc-store-credit-300x225.gif" data-object-fit="~" itemprop="image"><noscript><img width="300" height="225" src="https://www.codecraftsman.us/wp-content/uploads/2022/05/show-available-bc-store-credit-300x225.gif" class="attachment-medium size-medium wp-post-image" alt="Extending Bigcommerce for Wordpress" loading="lazy"></noscript><span class="ct-ratio" style="padding-bottom: 56.3%"></span></a>
 											<h4 class="related-entry-title" itemprop="name">
-							<a href="https://www.codecraftsman.us/how-to-code-a-throttle-or-debounce-function-in-lua/" itemprop="url">How To: Code a Throttle or Debounce function in Lua</a>
+							<a href="https://www.codecraftsman.us/extend-bc-for-wp-show-customers-their-available-store-credit/" itemprop="url">Extend BC for WP: Show customers their available store credit</a>
 						</h4>
 					
-					<ul class="entry-meta" data-type="simple:slash"><li class="meta-date" itemprop="datePublished"><time class="ct-meta-element-date" datetime="2022-04-25T20:32:08-06:00">April 25, 2022</time></li></ul>				</article>
+					<ul class="entry-meta" data-type="simple:slash"><li class="meta-date" itemprop="datePublished"><time class="ct-meta-element-date" datetime="2022-05-03T10:45:00-06:00">May 3, 2022</time></li></ul>				</article>
 					</div>
 
 			</div>
