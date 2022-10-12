@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://www.codecraftsman.us/</loc>
-		<lastmod>2022-10-04T03:24:14+00:00</lastmod>
+		<lastmod>2022-10-12T03:15:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://www.codecraftsman.us/validate-an-umbraco-forms-submission-server-side/</loc>
@@ -234,36 +234,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://www.codecraftsman.us/how-i-built-my-hyper-fast-blog-for-free/</loc>
-		<lastmod>2022-09-25T04:24:56+00:00</lastmod>
-		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/09/how-i-built-my-hyper-fast-blog-for-free.gif</image:loc>
-			<image:title><![CDATA[how-i-built-my-hyper-fast-blog-for-free]]></image:title>
-			<image:caption><![CDATA[How I built my hyper-fast blog for free]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/09/wordpress-logotype-standard.gif</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/09/hyper-fast-blog-wamp-logo.gif</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/09/github-logo-octo.gif</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/09/git-uncommited-blog-files.gif</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/09/github-pages-setup.gif</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/09/cloudflare-dns-setup.gif</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/09/github-pages-https-notice.gif</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://www.codecraftsman.us/integrate-the-elementor-global-theme-system-into-reusable-templates/</loc>
 		<lastmod>2022-10-04T03:18:19+00:00</lastmod>
 		<image:image>
@@ -335,6 +305,51 @@
 		</image:image>
 		<image:image>
 			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/10/override-woocommerce-price-cart-altered.gif</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.codecraftsman.us/create-a-clean-zip-file-of-your-custom-wordpress-plugin-folder/</loc>
+		<lastmod>2022-10-12T03:15:04+00:00</lastmod>
+		<image:image>
+			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/10/create-a-clean-zip-file-of-your-custom-plugin-folder.gif</image:loc>
+			<image:title><![CDATA[create-a-clean-zip-file-of-your-custom-plugin-folder]]></image:title>
+			<image:caption><![CDATA[Clean zip file of wordpress plugin folder]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/10/custom-plugin-folder-2.gif</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/10/custom-plugin-zipped-3.gif</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.codecraftsman.us/how-i-built-my-hyper-fast-blog-for-free/</loc>
+		<lastmod>2022-10-12T03:15:14+00:00</lastmod>
+		<image:image>
+			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/09/how-i-built-my-hyper-fast-blog-for-free.gif</image:loc>
+			<image:title><![CDATA[how-i-built-my-hyper-fast-blog-for-free]]></image:title>
+			<image:caption><![CDATA[How I built my hyper-fast blog for free]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/09/wordpress-logotype-standard.gif</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/09/hyper-fast-blog-wamp-logo.gif</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/09/github-logo-octo.gif</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/09/git-uncommited-blog-files.gif</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/09/github-pages-setup.gif</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/09/cloudflare-dns-setup.gif</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/09/github-pages-https-notice.gif</image:loc>
 		</image:image>
 	</url>
 </urlset>
