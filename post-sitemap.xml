@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://www.codecraftsman.us/</loc>
-		<lastmod>2022-10-12T03:15:14+00:00</lastmod>
+		<lastmod>2022-10-17T04:03:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://www.codecraftsman.us/validate-an-umbraco-forms-submission-server-side/</loc>
@@ -350,6 +350,27 @@
 		</image:image>
 		<image:image>
 			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/09/github-pages-https-notice.gif</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.codecraftsman.us/add-a-3rd-party-ssl-certificate-to-your-azure-app-service/</loc>
+		<lastmod>2022-10-17T04:03:35+00:00</lastmod>
+		<image:image>
+			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/10/add-a-3rd-party-ssl-certificate-to-your-azure-app-service.gif</image:loc>
+			<image:title><![CDATA[add-a-3rd-party-ssl-certificate-to-your-azure-app-service]]></image:title>
+			<image:caption><![CDATA[Add a 3rd-party SSL certificate to your Azure App Service]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/10/add-3rd-party-ssl-certificate-to-azure-app-01.gif</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/10/add-3rd-party-ssl-certificate-to-azure-app-02.gif</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/10/add-3rd-party-ssl-certificate-to-azure-app-03.gif</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/10/add-3rd-party-ssl-certificate-to-azure-app-04.gif</image:loc>
 		</image:image>
 	</url>
 </urlset>
