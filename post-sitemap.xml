@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://www.codecraftsman.us/</loc>
-		<lastmod>2022-10-17T04:03:35+00:00</lastmod>
+		<lastmod>2022-10-19T03:46:23+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://www.codecraftsman.us/validate-an-umbraco-forms-submission-server-side/</loc>
@@ -371,6 +371,28 @@
 		</image:image>
 		<image:image>
 			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/10/add-3rd-party-ssl-certificate-to-azure-app-04.gif</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.codecraftsman.us/quiet-that-bathroom-ceiling-fan/</loc>
+		<lastmod>2022-10-19T03:46:23+00:00</lastmod>
+		<image:image>
+			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/10/silence-that-bathroom-ceiling-exhaust-fan.gif</image:loc>
+			<image:title><![CDATA[silence-that-bathroom-ceiling-exhaust-fan]]></image:title>
+			<image:caption><![CDATA[Silence that bathroom ceiling fan]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/10/weatherstrip-to-silence-exhaust-fan.jpg</image:loc>
+			<image:caption><![CDATA[Weatherstrip to silence noisy exhaust fan]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/10/quiet-that-bathroom-ceiling-fan-01.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/10/quiet-that-bathroom-ceiling-fan-02.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/10/quiet-that-bathroom-ceiling-fan-03.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
