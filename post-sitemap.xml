@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://www.codecraftsman.us/</loc>
-		<lastmod>2022-11-02T02:45:54+00:00</lastmod>
+		<lastmod>2022-11-07T01:19:42+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://www.codecraftsman.us/validate-an-umbraco-forms-submission-server-side/</loc>
@@ -288,8 +288,8 @@
 		<lastmod>2022-10-04T03:24:14+00:00</lastmod>
 		<image:image>
 			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/10/how-to-override-a-woocommerce-products-price.gif</image:loc>
-			<image:title><![CDATA[how-to-override-a-woocommerce-products-price]]></image:title>
-			<image:caption><![CDATA[How to override a WooCommerce products price]]></image:caption>
+			<image:title><![CDATA[Add custom fields to WooCommerce product variations]]></image:title>
+			<image:caption><![CDATA[Add custom fields to WooCommerce product variations]]></image:caption>
 		</image:image>
 		<image:image>
 			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/10/how-to-override-a-woocommerce-products-price-default-1.gif</image:loc>
@@ -420,6 +420,18 @@
 		</image:image>
 		<image:image>
 			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/10/reusable-code-template-in-phpstorm-06-1.gif</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.codecraftsman.us/add-custom-fields-to-woocommerce-product-variations/</loc>
+		<lastmod>2022-11-07T01:19:42+00:00</lastmod>
+		<image:image>
+			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/11/add-custom-fields-to-woocommerce-product-variations.gif</image:loc>
+			<image:title><![CDATA[add-custom-fields-to-woocommerce-product-variations]]></image:title>
+			<image:caption><![CDATA[Add custom fields to WooCommerce product variations]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/11/custom-field-in-woocommerce-product-variation.gif</image:loc>
 		</image:image>
 	</url>
 </urlset>
