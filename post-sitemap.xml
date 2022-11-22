@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://www.codecraftsman.us/</loc>
-		<lastmod>2022-11-15T05:22:20+00:00</lastmod>
+		<lastmod>2022-11-22T02:24:49+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://www.codecraftsman.us/validate-an-umbraco-forms-submission-server-side/</loc>
@@ -76,42 +76,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://www.codecraftsman.us/recover-a-private-key-from-a-godaddy-ssl-certificate/</loc>
-		<lastmod>2020-09-29T02:16:55+00:00</lastmod>
-		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/07/extract-private-key-from-godaddy-cert.jpg</image:loc>
-			<image:title><![CDATA[extract-private-key-from-godaddy-cert]]></image:title>
-			<image:caption><![CDATA[Private key character string]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/07/ssl-connection-error.gif</image:loc>
-			<image:caption><![CDATA[SSL Certificate Expired Error]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/07/stackpath-cdn-ssl-form.gif</image:loc>
-			<image:caption><![CDATA[StackPath CDN SSL Form]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/07/iis-server-certificate-form-2.gif</image:loc>
-			<image:caption><![CDATA[IIS Server Certificates form]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/07/csr-sample-request.gif</image:loc>
-			<image:caption><![CDATA[Sample Certificate Signing Request]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/07/godaddy-ssl-rekey.gif</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/08/iis-server-certificate-complete-form.gif</image:loc>
-			<image:caption><![CDATA[IIS Certificate Request Complete]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/07/private-key-sample.gif</image:loc>
-			<image:caption><![CDATA[Sample private key file contents]]></image:caption>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://www.codecraftsman.us/create-a-custom-html-field-type-in-umbracoforms/</loc>
 		<lastmod>2020-09-29T03:11:36+00:00</lastmod>
 		<image:image>
@@ -168,17 +132,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://www.codecraftsman.us/how-to-share-vue-components-between-multiple-projects/</loc>
-		<lastmod>2022-06-08T03:14:23+00:00</lastmod>
-		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/02/share-vue-components-between-projects.gif</image:loc>
-			<image:title><![CDATA[share-vue-components-between-projects]]></image:title>
-		</image:image>
-		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/02/share-common-vue-components-01.gif</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://www.codecraftsman.us/add-bcc-address-to-all-woocommerce-emails/</loc>
 		<lastmod>2022-06-08T03:16:01+00:00</lastmod>
 		<image:image>
@@ -205,15 +158,6 @@
 		</image:image>
 		<image:image>
 			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/08/reporting-graph-privacy-focused-website-statistics-02.gif</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://www.codecraftsman.us/generate-a-pfx-file-from-a-godaddy-ssl-certificate/</loc>
-		<lastmod>2022-09-09T03:41:10+00:00</lastmod>
-		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/09/generate-a-pfx-file-from-a-godaddy-ssl-certificate.gif</image:loc>
-			<image:title><![CDATA[generate-a-pfx-file-from-a-godaddy-ssl-certificate]]></image:title>
-			<image:caption><![CDATA[generate pfx from godaddy cert]]></image:caption>
 		</image:image>
 	</url>
 	<url>
@@ -423,8 +367,53 @@
 		</image:image>
 	</url>
 	<url>
+		<loc>https://www.codecraftsman.us/programmatically-add-a-custom-fee-to-the-woocommerce-cart/</loc>
+		<lastmod>2022-11-15T05:22:20+00:00</lastmod>
+		<image:image>
+			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/11/programmatically-add-a-custom-fee-to-the-woocommerce-cart.gif</image:loc>
+			<image:title><![CDATA[programmatically-add-a-custom-fee-to-the-woocommerce-cart]]></image:title>
+			<image:caption><![CDATA[Add custom fee to WooCommerce Cart]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.codecraftsman.us/recover-a-private-key-from-a-godaddy-ssl-certificate/</loc>
+		<lastmod>2022-11-21T05:18:17+00:00</lastmod>
+		<image:image>
+			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/07/extract-private-key-from-godaddy-cert.jpg</image:loc>
+			<image:title><![CDATA[extract-private-key-from-godaddy-cert]]></image:title>
+			<image:caption><![CDATA[Private key character string]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/07/ssl-connection-error.gif</image:loc>
+			<image:caption><![CDATA[SSL Certificate Expired Error]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/07/stackpath-cdn-ssl-form.gif</image:loc>
+			<image:caption><![CDATA[StackPath CDN SSL Form]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/07/iis-server-certificate-form-2.gif</image:loc>
+			<image:caption><![CDATA[IIS Server Certificates form]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/07/csr-sample-request.gif</image:loc>
+			<image:caption><![CDATA[Sample Certificate Signing Request]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/07/godaddy-ssl-rekey.gif</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/08/iis-server-certificate-complete-form.gif</image:loc>
+			<image:caption><![CDATA[IIS Certificate Request Complete]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2020/07/private-key-sample.gif</image:loc>
+			<image:caption><![CDATA[Sample private key file contents]]></image:caption>
+		</image:image>
+	</url>
+	<url>
 		<loc>https://www.codecraftsman.us/add-custom-fields-to-woocommerce-product-variations/</loc>
-		<lastmod>2022-11-07T01:19:42+00:00</lastmod>
+		<lastmod>2022-11-22T02:12:03+00:00</lastmod>
 		<image:image>
 			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/11/add-custom-fields-to-woocommerce-product-variations.gif</image:loc>
 			<image:title><![CDATA[add-custom-fields-to-woocommerce-product-variations]]></image:title>
@@ -435,12 +424,23 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://www.codecraftsman.us/programmatically-add-a-custom-fee-to-the-woocommerce-cart/</loc>
-		<lastmod>2022-11-15T05:22:20+00:00</lastmod>
+		<loc>https://www.codecraftsman.us/generate-a-pfx-file-from-a-godaddy-ssl-certificate/</loc>
+		<lastmod>2022-11-22T02:22:28+00:00</lastmod>
 		<image:image>
-			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/11/programmatically-add-a-custom-fee-to-the-woocommerce-cart.gif</image:loc>
-			<image:title><![CDATA[programmatically-add-a-custom-fee-to-the-woocommerce-cart]]></image:title>
-			<image:caption><![CDATA[Add custom fee to WooCommerce Cart]]></image:caption>
+			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/09/generate-a-pfx-file-from-a-godaddy-ssl-certificate.gif</image:loc>
+			<image:title><![CDATA[generate-a-pfx-file-from-a-godaddy-ssl-certificate]]></image:title>
+			<image:caption><![CDATA[generate pfx from godaddy cert]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.codecraftsman.us/how-to-share-vue-components-between-multiple-projects/</loc>
+		<lastmod>2022-11-22T02:24:49+00:00</lastmod>
+		<image:image>
+			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/02/share-vue-components-between-projects.gif</image:loc>
+			<image:title><![CDATA[share-vue-components-between-projects]]></image:title>
+		</image:image>
+		<image:image>
+			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/02/share-common-vue-components-01.gif</image:loc>
 		</image:image>
 	</url>
 </urlset>
