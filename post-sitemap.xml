@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://www.codecraftsman.us/</loc>
-		<lastmod>2022-11-22T02:24:49+00:00</lastmod>
+		<lastmod>2022-11-27T22:35:20+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://www.codecraftsman.us/validate-an-umbraco-forms-submission-server-side/</loc>
@@ -441,6 +441,15 @@
 		</image:image>
 		<image:image>
 			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/02/share-common-vue-components-01.gif</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.codecraftsman.us/how-to-add-a-dynamic-fallback-to-an-acf-field-value-in-elementor/</loc>
+		<lastmod>2022-11-27T22:35:20+00:00</lastmod>
+		<image:image>
+			<image:loc>http://www.codecraftsman.us/wp-content/uploads/2022/11/how-to-add-a-dynamic-fallback-to-an-acf-field-value-in-elementor.gif</image:loc>
+			<image:title><![CDATA[how-to-add-a-dynamic-fallback-to-an-acf-field-value-in-elementor]]></image:title>
+			<image:caption><![CDATA[Add a dynamic fallback value to ACF field in Elementor]]></image:caption>
 		</image:image>
 	</url>
 </urlset>
